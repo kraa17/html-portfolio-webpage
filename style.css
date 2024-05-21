@@ -1,0 +1,119 @@
+* {
+    color: #693c10;
+    margin-right: 0;
+    padding: 0;
+    border: 0;
+}
+
+.top-container {
+    background-color: #FEEFAD;
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+}
+
+.top-container-donut {
+    position: relative;
+    left: 260px;
+    top: 100px;
+}
+
+.title-text h1 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+h2 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.title-text h2 {
+    margin-top: 50px;
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+.profile {
+    margin-top: 50px;
+    text-align: center;
+}
+.profile p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.self-portrait {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skills-contents {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1 fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.contact-me {
+    text-align: center;
+    padding: 150px;
+}
+
+.contact-me h2 {
+    margin: 50px;
+}
+
+.contact-me h3 {
+    margin: 30px;
+}
+
+.btn {
+    background: #693c10;
+}
+
+.bottom-container {
+    background-color: #FEEFAD;
+    color: #a06d3a;   
+}
+
+.footer-link{
+    text-decoration: none;
+    margin: 10px 20px;
+    color: #693c10;
+    font-size: 20px;
+}
+
+.bottom-container {
+    background-color: #FEEFAD;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.contact-me a {
+    border-radius: 20px;
+    background: #FEEFAD;
+    color: #693c10;
+    
+}
+
+@media screen and (max-width)
